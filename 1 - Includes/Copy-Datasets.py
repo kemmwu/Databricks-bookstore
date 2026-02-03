@@ -20,6 +20,7 @@ def path_exists(path):
 # COMMAND ----------
 
 class CourseDataset:
+    
     def __init__(self, uri, data_catalog, db_name, location=None, checkpoint=None):
         self.uri = uri
         self.dataset_path = location
