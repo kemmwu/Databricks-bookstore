@@ -2,4 +2,5 @@
 # MAGIC %run ./Copy-Datasets
 
 # COMMAND ----------
+
 bookstore.clean_up()
